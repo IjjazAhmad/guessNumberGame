@@ -1,0 +1,38 @@
+main{
+    .playpage{
+        min-height: 100vh;
+        background-image: radial-gradient(circle, #f1ecef, #d9c6d6, #bba2c1, #9882b0, #6f64a0, #62599e, #544e9d, #44439b, #6140a3, #7e39a7, #9b2ca8, #b70fa4);
+        h4{
+            line-height:20px;
+            span{
+                background-color: #544e9d;
+                color: white;
+                line-height: 30px;
+                // padding-top: 30px;
+            }
+        }
+        input{
+            padding: 20px ;
+            margin: 10px 0px;
+            width: 70px;
+            align-self: center;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            outline: none;
+            border: none;
+            border-radius: 10px;
+        }
+        p{
+            line-height: 10px;
+        }
+    }
+    input{
+        padding: 20px ;
+        margin: 10px 0px;
+        width: 10rem;
+        align-self: center;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        outline: none;
+        border: none;
+        border-radius: 10px;
+    }
+}

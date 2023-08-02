@@ -1,0 +1,15 @@
+@import './color';
+
+main{
+    #startPage{
+        background-image: $bg-start;
+        width: 100%;
+        min-height: 100vh;
+        Link{
+            background-color: white;
+            text-decoration: none;
+            color: black;
+
+        }
+    }
+}
